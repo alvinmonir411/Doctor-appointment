@@ -10,6 +10,7 @@ import Doctors from "./Components/Doctors";
 import Deteils from "./Components/Deteils";
 import LogIn from "./Components/LogIn";
 import SignUp from "./Components/SignUp";
+
 export const route = createBrowserRouter([
   {
     path: "/",

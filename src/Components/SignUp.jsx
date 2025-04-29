@@ -2,7 +2,7 @@ import {
   createUserWithEmailAndPassword,
   sendEmailVerification,
 } from "firebase/auth";
-import React from "react";
+
 import { NavLink } from "react-router";
 import { auth } from "../../firebase.init";
 import { useNavigate } from "react-router";
@@ -17,16 +17,14 @@ const SignUp = () => {
     createUserWithEmailAndPassword(auth, email, password)
       .then((result) => {
         toast.success("Verification email sent.");
-
-        return sendEmailVerification(result.user);
-      })
-      .then(() => {
-        setTimeout(() => {
+        if (!emailVerified) {
+          toast("plese verify your email with link");
+        } else {
           navigate("/");
-        }, 2000);
+        }
       })
+      .then(() => {})
       .catch((error) => {
-        console.log(error);
         toast.error(error.message);
       });
   };
