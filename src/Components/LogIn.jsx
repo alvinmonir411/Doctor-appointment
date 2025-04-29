@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router";
 
 const LogIn = () => {
   return (
@@ -10,6 +11,12 @@ const LogIn = () => {
             Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
             excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
             a id nisi.
+          </p>
+          <p>
+            Not Have An Account?{" "}
+            <NavLink className="underline text-blue-500" to="/SignUp">
+              Sign Up
+            </NavLink>
           </p>
         </div>
         <div className="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl">

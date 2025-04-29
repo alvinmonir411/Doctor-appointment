@@ -98,7 +98,7 @@ const Deteils = () => {
 
       <button
         onClick={() => HandleBooking(id)}
-        className="w-2/3  mx-auto  border-blue-400 bg-blue-700 text-white rounded-4xl p-2 mt-10 text-center font-semibold text-xl"
+        className="w-full mx-auto  border-blue-400 bg-blue-700 text-white rounded-4xl p-2 mt-10 text-center font-semibold text-xl"
       >
         Book Appointment Now
       </button>
