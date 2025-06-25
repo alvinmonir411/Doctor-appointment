@@ -33,7 +33,7 @@ A full-featured appointment booking web app for patients and doctors with dedica
 
 ## 🚀 Key Features
 
-- 🔒 Secure Authentication (JWT)
+- 
 - 🧑‍⚕️ Doctor & Admin management
 - 📅 Smart Appointment Booking
 - 📨 Email Notifications (confirmation/cancellation)
@@ -46,13 +46,12 @@ A full-featured appointment booking web app for patients and doctors with dedica
 ## 🧰 Tech Stack
 
 - **Frontend**: React, Tailwind CSS, React Router
-- **Backend**: Node.js, Express, MongoDB, Mongoose
-- **Auth**: Firebase / JWT-based (based on your setup)
-- **Email**: Nodemailer
+- **Backend**: Node.js, Express, MongoDB
+- **Auth**: Firebase 
+- **Email**: alvinmonir411@gmail.com
 - **State Management**: Context API
 - **Notifications**: React Toastify
 
 ---
 
-## 📁 Folder Structure
 
